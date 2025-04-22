@@ -1,0 +1,6 @@
+opencv-python
+ultralytics
+shapely
+numpy
+Flask
+requests
