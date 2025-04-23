@@ -6,7 +6,7 @@ from eazyPark.config import API_TOKEN, UPDATE_SPOT_URL
 def send_zone_status(spot_id, is_busy, camera_name, country, region, city, street, coords):
     try:
         data = {
-            "token": API_TOKEN,
+            "token": "my_secret_token_123",
             "camera_name": camera_name,
             "spot_id": spot_id,
             "is_busy": "1" if is_busy else "0",
